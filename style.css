@@ -1,0 +1,69 @@
+.ring {
+  width: 60px;
+  height: 60px;
+  border: solid #ff6702 6px;
+  border-radius: 50%;
+  box-shadow: inset 2.4px 2.4px #e85c00;
+}
+
+.fatRing {
+  width: 200px;
+  height: 200px;
+  border: solid #fcca02 20px;
+  border-radius: 50%;
+  box-shadow: inset 8px 8px #e3b602;
+}
+
+.boucleRing div:nth-child(1) {
+  width: 25px;
+  height: 25px;
+  border: solid #343434 2.5px;
+  border-radius: 50%;
+  box-shadow: inset 1px 1px #272727;
+  margin: -5px;
+}
+
+.boucleRing div:nth-child(2) {
+  width: 50px;
+  height: 50px;
+  border: solid #343434 5px;
+  border-radius: 50%;
+  box-shadow: inset 2px 2px #272727;
+  margin: -10px;
+}
+
+.boucleRing div:nth-child(3) {
+  width: 75px;
+  height: 75px;
+  border: solid #343434 7.5px;
+  border-radius: 50%;
+  box-shadow: inset 3px 3px #272727;
+  margin: -15px;
+}
+
+.boucleRing div:nth-child(4) {
+  width: 100px;
+  height: 100px;
+  border: solid #343434 10px;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px #272727;
+  margin: -20px;
+}
+
+.boucleRing div:nth-child(5) {
+  width: 125px;
+  height: 125px;
+  border: solid #343434 12.5px;
+  border-radius: 50%;
+  box-shadow: inset 5px 5px #272727;
+  margin: -25px;
+}
+
+.boucleRing div:nth-child(6) {
+  width: 150px;
+  height: 150px;
+  border: solid #343434 15px;
+  border-radius: 50%;
+  box-shadow: inset 6px 6px #272727;
+  margin: -30px;
+}

@@ -1,0 +1,24 @@
+
+@mixin ring ($color, $size){
+    width:$size;
+    height:$size;
+    border:solid $color $size/10;
+    border-radius:50%;
+    box-shadow:inset $size/25 $size/25 darken($color, 5) ;
+}
+
+.ring {
+    @include ring(#ff6702, 60px);
+}
+
+.fatRing {
+    @include ring(#fcca02, 200px);
+}
+
+
+    @for $i from 1 through 6 {
+        .boucleRing div:nth-child(#{$i}){
+        @include ring(#343434, ($i * 50px) / 2);
+        margin:($i * -5px);
+    }
+}
